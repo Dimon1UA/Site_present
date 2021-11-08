@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Fruktur&family=Mochiy+Pop+One&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/planety_zvezdy_galaktika_146898_3840x2400.jpg);
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    max-width: 1700px;
+}
+.header_inner{
+    width: 100%;
+}
+.box_header1{
+    border-bottom: 2px solid white;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    color: white;
+}
+.logo h2{
+    font-family: 'Dancing Script', cursive;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+.box_header2{
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    padding: 200px 0;
+}
+.box_text_header h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 50px;
+}
+.box_text_header p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+.knopka{
+    width: 100%;
+    margin-top: 50px;
+}
+.knopka a{
+    text-decoration: none;
+    /* margin-top: 100px; */
+    border: 2px solid black;
+    padding: 20px 80px;
+    background-color: rgba(81, 255, 0, 0.392);
+    color: white;
+    transition: all 0.5s;
+}
+.menu a:hover{
+    font-size: 20px;
+    border-bottom: 2px solid white ;
+    color: rgb(255, 8, 8);
+}
+.knopka a:hover{
+    background-color: rgb(255, 72, 0);
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92); 
+    box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
+}
+.content{
+    background-color: white;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.mother1{
+    width: 80%;
+    /* height: 100px; */
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.box_p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+.mother2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 60px 0; */
+}
+.conteiner{
+    width: 350px;
+    
+    padding: 10px 0;
+    
+}
+.logo_text{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.text_p{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+}
+.text_p h1{
+    font-size: 50px;
+    font-family: 'Qahiri', sans-serif;
+}
+.logo_text i{
+    font-size: 50px;
+    color: red;
+    padding: 24px;
+    
+}
+.logo_text h1{
+    font-size: 50px;
+    color: red;
+    padding:  20px;
+}
+.logo_text:hover{
+    background-color: red;
+}
+.logo_text i:hover{
+    color: rgb(255, 255, 255);
+}
+.logo_text h1:hover{
+    color: rgb(255, 255, 255);
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    
+    display: flex;
+    
+}
+.footermom{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+.footermom i{
+    font-size: 40px;
+    color: rgb(0, 247, 255);
+    transition: all 0.5s;
+}
+.footermom i:hover{
+    font-size: 40px;
+    color: rgb(0, 60, 255);
+}
+@media screen and (max-width: 700px)
+{
+    .menu{
+        display: none;
+    }
+}
